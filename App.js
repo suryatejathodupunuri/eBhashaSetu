@@ -1,9 +1,8 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import SplashScreen from './src/components/screens/SplashScreen';
-import AuthScreen from './src/components/screens/AuthScreen';
-
+import SplashScreen from './src/screens/SplashScreen';
+import AuthScreen from './src/screens/AuthScreen';
 const Stack = createStackNavigator();
 
 export default function App() {
