@@ -10,7 +10,7 @@ import {
 } from "react-native";
 
 // Import the image properly
-import authImage from "../../../assets/auth-bg.jpg";
+import authImage from "../../assets/auth-bg.jpg";
 
 // Get device height for better positioning
 const { height, width } = Dimensions.get("window");
